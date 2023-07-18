@@ -18,7 +18,7 @@ Step 2: Configure the Database
 Open the application.properties file in your project and add the following configuration for the MySQL database connection
 
 i.e
-# Database Configuration
+Database Configuration
 spring.datasource.url=jdbc:mysql://localhost:3306/backendDemo
 spring.datasource.username=root
 spring.datasource.password=rushi
@@ -56,7 +56,7 @@ Step 7: Run the Application
 Build and run the Spring Boot application.
 Open a web browser and access the registration page using http://localhost:2000/registration.
 Register a new user by providing a username and password.
-After registration, you should be redirected to the login page (http://localhost:8080/login).
+After registration, you should be redirected to the login page (http://localhost:2000/login).
 Login with the registered credentials.
 
 
